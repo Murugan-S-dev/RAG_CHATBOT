@@ -1,88 +1,94 @@
 # 🤖 RAG Chatbot
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-An intelligent chatbot built using **Retrieval-Augmented Generation (RAG)** architecture that allows users to interact with documents and data through natural language queries. It combines context-aware retrieval and modern language generation models for more accurate and relevant responses.
+An intelligent chatbot powered by **Retrieval-Augmented Generation (RAG)** architecture, enabling natural language interaction with documents and data. It combines context-aware retrieval with modern language generation models to deliver accurate and relevant responses.
 
 ---
 
 ## 🔗 Creator
 
-- **GitHub**: [Murugan-S-dev](https://github.com/Murugan-S-dev)
+- **GitHub**: [Murugan-S-dev](https://github.com/Murugan-S-dev)  
 - **LinkedIn**: [Murugan S](https://www.linkedin.com/in/murugan-s-dev2025)
 
 ---
 
 ## 🚀 Features
 
-- 📄 Chat with PDFs or document files using natural language
-- 🧠 Combines document retrieval + answer generation
-- ⚡ Fast and efficient using embeddings and vector search
-- 🌐 Web interface using Streamlit
+- 📄 Interact with PDF or document files using natural language  
+- 🧠 Combines document retrieval and language model generation  
+- ⚡ Fast and efficient using embeddings + vector search  
+- 🌐 Simple and elegant web interface via Streamlit  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python
-- **Web Interface**: Streamlit
-- **LLM**: HuggingFace Transformers / OpenAI GPT (customizable)
-- **Vector Search**: FAISS / ChromaDB
-- **Embedding Model**: SentenceTransformers or OpenAI embeddings
-- **Document Parsing**: PyMuPDF or similar PDF library
+- **Programming Language**: Python  
+- **Web Framework**: Streamlit  
+- **LLM Backend**: HuggingFace Transformers / OpenAI GPT (customizable)  
+- **Vector Store**: FAISS / ChromaDB  
+- **Embeddings**: SentenceTransformers / OpenAI Embeddings  
+- **Document Parsing**: PyMuPDF or similar libraries  
 
 ---
 
 ## 📦 Installation
 
-```bash
-git clone https://github.com/Murugan-S-dev/RAG_CHATBOT.git
-cd RAG_CHATBOT
-pip install -r requirements.txt
+- **Step 1**: Clone the repository  
+  ```bash
+  git clone https://github.com/Murugan-S-dev/RAG_CHATBOT.git
+
+
+* **Step 2**: Navigate to the project directory
+
+  ```bash
+  cd RAG_CHATBOT
+  ```
+
+* **Step 3**: Install the required dependencies
+
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ---
 
 ## ▶️ Running the App
 
+```bash
 streamlit run app.py
-Make sure to configure your .env file with necessary API keys or settings.
+```
+
+> ⚙️ Make sure to configure your `.env` file with the necessary API keys and settings.
 
 ---
 
 ## 📚 How It Works
 
-Document Upload: Upload one or more PDF files.
-
-Text Extraction: Extracts and chunks the text content.
-
-Embedding: Converts chunks into vector embeddings.
-
-Retrieval: Retrieves relevant chunks for a user query.
-
-Answer Generation: LLM generates a response based on retrieved chunks.
+1. **Document Upload**: Users upload one or more PDF files.
+2. **Text Extraction**: The app extracts and chunks text from the documents.
+3. **Embedding**: Each chunk is converted into a vector embedding.
+4. **Retrieval**: Relevant chunks are retrieved for a given user query.
+5. **Answer Generation**: An LLM generates a contextual response based on the retrieved chunks.
 
 ---
 
 ## 🧪 Example Use Cases
 
-Ask questions from textbooks or research papers
-
-Business document summarization
-
-Legal/HR policy document assistant
-
-Educational learning assistant
+* 📘 Ask questions from textbooks or academic papers
+* 🧾 Summarize business documents
+* ⚖️ Query legal or HR policy documents
+* 🎓 Use as an educational learning assistant
 
 ---
 
 ## 👨‍💻 Author
-Made with ❤️ by Murugan S
-GitHub: Murugan-S-dev
+
+Made with ❤️ by **Murugan S**
+
+* GitHub: [Murugan-S-dev](https://github.com/Murugan-S-dev)
 
 ---
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
 
-
-```
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
