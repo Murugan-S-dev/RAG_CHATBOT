@@ -40,12 +40,16 @@ git clone https://github.com/Murugan-S-dev/RAG_CHATBOT.git
 cd RAG_CHATBOT
 pip install -r requirements.txt
 
-▶️ Running the App
+---
+
+## ▶️ Running the App
 
 streamlit run app.py
 Make sure to configure your .env file with necessary API keys or settings.
 
-📚 How It Works
+---
+
+## 📚 How It Works
 
 Document Upload: Upload one or more PDF files.
 
@@ -57,7 +61,9 @@ Retrieval: Retrieves relevant chunks for a user query.
 
 Answer Generation: LLM generates a response based on retrieved chunks.
 
-🧪 Example Use Cases
+---
+
+## 🧪 Example Use Cases
 
 Ask questions from textbooks or research papers
 
@@ -67,10 +73,13 @@ Legal/HR policy document assistant
 
 Educational learning assistant
 
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 Made with ❤️ by Murugan S
 GitHub: Murugan-S-dev
+
+---
 
 📄 License
 This project is licensed under the MIT License.
